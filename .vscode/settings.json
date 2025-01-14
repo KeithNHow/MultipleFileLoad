@@ -1,0 +1,36 @@
+{       
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${PerTenantExtensionCop}",
+        "${UICop}"
+    ],
+
+    "[al]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.suggestSelection": "first",
+        "editor.formatOnSave": true,
+        "editor.codeLens": false,
+        "editor.semanticHighlighting.enabled": true,
+    },
+
+    "al.backgroundCodeAnalysis": true,
+    "al.enableCodeActions": true,
+    "al.packageCachePath": "./.alpackages",
+    "al-test-runner.sendDebugTelemetry": false,
+    "al.compilationOptions": 
+    {
+        "generateReportLayout": true
+    },
+
+    "workbench.editor.enablePreview": true,
+
+    "CRS.ObjectNamePrefix": "KNH",
+    "CRS.OnSaveAlFileAction": "Rename",
+    "CRS.FileNamePattern": "<ObjectPrefix>.<ObjectName>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectPrefix>.<ObjectName>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectPrefix>.<ObjectName>.<ObjectTypeShortPascalCase>.al",
+    "alCodeActions.varParameters": [
+        "IsHandled"
+    ],
+}
