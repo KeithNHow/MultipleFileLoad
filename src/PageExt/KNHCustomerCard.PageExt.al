@@ -1,4 +1,4 @@
-pageextension 53701 KNHCustomerCard extends "Customer Card"
+pageextension 53801 KNHCustomerCard extends "Customer Card"
 {
     actions
     {
